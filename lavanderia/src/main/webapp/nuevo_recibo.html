@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavandería - Nuevo recibo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+
+  
+<body>
+
+  <section class="col-xs-12 col-sm-6 col-md-8">
+
+    <div class="container h-100 border-dark">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-9">
+
+          <h1 class="text-black mb-4"> Nuevo Recibo</h1>
+
+          <div class="card border-dark" style="border-radius: 15px;">
+            <div class="card-body">
+
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+
+                  <h6 class="mb-0">Cliente</h6>
+
+                </div>
+                <div class="col-md-9 pe-5">
+
+                  <input type="text" class="form-control form-control-lg border-dark" />
+
+                </div>
+              </div>
+              <div class="row align-items-center py-3  border-dark">
+                <div class="col-md-3 ps-5">
+
+                  <h6 class="mb-0">Fecha de entrega</h6>
+
+                </div>
+                <div class="container shadow  py-2 ">
+
+                  <div class="row justify-content-center">
+                    <div class="col-lg-3 col-sm-6">
+                      <label for="startDate"></label>
+                      <input id="startDate" class="form-control border-dark" type="date" />
+                      <span id="startDateSelected"></span>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+              <hr class="mx-n3">
+
+
+
+              <div class="row align-items-center py-3">
+                <div class="col-md-3 ps-5">
+
+                  <h6 class="mb-0">Cantidad</h6>
+
+                </div>
+                <div class="col-md-9 pe-5">
+
+                  <input type="text" class="input  border-secondary" placeholder="" />
+
+                </div>
+              </div>
+              <div class="mb-4 pb-2">
+                <select class="select border-dark">
+                  <option value="1">tipo_prenda</option>
+                  <option value="2">blujeans</option>
+                  <option value="3">paño</option>
+                  <option value="4">licra</option>
+                </select>
+              </div>
+              <hr class="mx-n3">
+
+
+              <div class="px-5 py-4">
+                <button type="submit" class="btn btn-primary btn-lg" onclick="location.href='./index.html'">Otra
+                  Prenda</button>
+                <button type="submit" class="btn btn-primary btn-lg">Guardar</button>
+
+
+
+
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
