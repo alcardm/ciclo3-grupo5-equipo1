@@ -11,3 +11,7 @@ Presentamos la propuesta para el desarrollo de una plataforma web de una lavande
 - William Mosquera, Tester.
 
 ## Otra información
+
+Esta es la rama `dev`, trabajar aquí para manejar una estrategía de ramas.
+
+🌟 Hacer _fork_ al proyecto.
