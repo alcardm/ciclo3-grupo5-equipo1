@@ -12,6 +12,4 @@ Presentamos la propuesta para el desarrollo de una plataforma web de una lavande
 
 ## Otra información
 
-Para no complicarnos, trabajemos solo lo rama main.
-
-🌟 Hacer _fork_ al proyecto.
+Sprint 2: hemos cambiado a un sistema para registrar alquiler de lavadoras.
