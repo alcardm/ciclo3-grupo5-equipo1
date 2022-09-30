@@ -87,14 +87,9 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.4</version>
                 <configuration>
-                    <appName>secure-cliffs-13778</appName>
-                    <includeTarget>false</includeTarget>
-                    <includes>
-                        <include>${project.build.directory}/${project.build.finalName}.jar</include>
-                    </includes>
-                    <jdkVersion>${java.version}</jdkVersion>
+                    <appName>${heroku.appName}</appName>
                     <processTypes>
-                        <web>java $JAVA_OPTS -jar target/${project.build.finalName}.jar</web>
+                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* com.example.Main</web>
                     </processTypes>
                 </configuration>
             </plugin>
