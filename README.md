@@ -13,3 +13,13 @@ Presentamos la propuesta para el desarrollo de una plataforma web de una lavande
 ## Otra información
 
 Sprint 2: hemos cambiado a un sistema para registrar alquiler de lavadoras.
+
+### Base de datos
+
+MySQL / MariaDB: [db4free.net](db4free.net)
+
+### Despliegue
+
+[Heroku](https://secure-cliffs-13778.herokuapp.com/)
+
+
