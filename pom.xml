@@ -87,7 +87,7 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.4</version>
                 <configuration>
-                    <appName>tranquil-anchorage-91313</appName>
+                    <appName>secure-cliffs-13778</appName>
                     <includeTarget>false</includeTarget>
                     <includes>
                         <include>${project.build.directory}/${project.build.finalName}.jar</include>
