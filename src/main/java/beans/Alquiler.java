@@ -1,10 +1,9 @@
-
 package beans;
 
 import java.sql.Date;
 
-
 public class Alquiler {
+
     private int id;
     private String username;
     private Date fecha;
@@ -63,9 +62,4 @@ public class Alquiler {
     public String toString() {
         return "Alquiler{" + "id=" + id + ", username=" + username + ", fecha=" + fecha + ", novedad=" + novedad + ", modelo=" + modelo + '}';
     }
-    
-    
-    
-    
-    
 }

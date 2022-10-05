@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.List;
 
 import com.google.gson.Gson;
-import beans.Peliculas;
+import beans.Lavadora;
 import connection.DBConnection;
 
 public class PeliculaController implements IPeliculaController {
@@ -41,7 +41,7 @@ public class PeliculaController implements IPeliculaController {
                 int disponibilidad = rs.getInt("disponibilidad");
                 boolean novedad = rs.getBoolean("novedad");
 
-                Peliculas pelicula = new Peliculas(id, marca, modelo, pesokg, disponibilidad, novedad);
+                Lavadora pelicula = new Lavadora(id, marca, modelo, pesokg, disponibilidad, novedad);
 
                 peliculas.add(gson.toJson(pelicula));
 

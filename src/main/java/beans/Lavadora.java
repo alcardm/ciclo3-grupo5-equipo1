@@ -1,16 +1,15 @@
-
 package beans;
 
+public class Lavadora {
 
-public class Peliculas {
-    private int id; 
+    private int id;
     private String marca;
     private String modelo;
     private int pesokg;
     private int disponibilidad;
     private boolean novedad;
 
-    public Peliculas(int id, String marca, String modelo, int pesokg, int disponibilidad, boolean novedad) {
+    public Lavadora(int id, String marca, String modelo, int pesokg, int disponibilidad, boolean novedad) {
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
@@ -71,6 +70,4 @@ public class Peliculas {
     public String toString() {
         return "Lavadora{" + "id=" + id + ", marca=" + marca + ", modelo=" + modelo + ", pesokg=" + pesokg + ", disponibilidad=" + disponibilidad + ", novedad=" + novedad + '}';
     }
-
-    
 }

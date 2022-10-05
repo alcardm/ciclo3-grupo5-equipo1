@@ -1,8 +1,7 @@
-
 package beans;
 
-
 public class Usuario {
+
     private String username;
     private String contrasena;
     private String nombre;
@@ -81,8 +80,5 @@ public class Usuario {
     public String toString() {
         return "Usuario{" + "username=" + username + ", contrasena=" + contrasena + ", nombre=" + nombre + ", apellidos=" + apellidos + ", email=" + email + ", saldo=" + saldo + ", premium=" + premium + '}';
     }
-    
-    
-    
-}
 
+}
